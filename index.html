@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Travel Explorer</div>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="destination">Destinations</a></li>
+                <li><a href="deals">Deals</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore the best travel destinations and deals.</p>
+            <input type="text" id="search" placeholder="Search for destinations">
+            <button onclick="searchDestinations()">Search</button>
+        </div>
+    </section>
+
+    <section class="popular-destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="https://t4.ftcdn.net/jpg/02/96/15/35/360_F_296153501_B34baBHDkFXbl5RmzxpiOumF4LHGCvAE.jpg" alt="Paris">
+                <div class="destination-info">
+                    <h3>Paris</h3>
+                    <p>Experience the City of Lights.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://d3iso9mq9tb10q.cloudfront.net/wysiwyg/Article-Images-2020/New-York/BBT-Night-Article-IMG-5-Brooklyn-Bridge.jpg" alt="New York">
+                <div class="destination-info">
+                    <h3>New York</h3>
+                    <p>The city that never sleeps.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://www.shutterstock.com/image-photo/tokyo-skyline-mountain-fuji-japan-260nw-552100717.jpg" alt="Tokyo">
+                <div class="destination-info">
+                    <h3>Tokyo</h3>
+                    <p>A blend of tradition and modernity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deals">
+        <h2>Exclusive Travel Deals</h2>
+        <div class="deal-card-wrapper">
+            <div class="deal-card">
+                <img src="https://pics.craiyon.com/2023-06-30/ddaffd2fc667425b835c4ccac14b3ff0.webp" alt="Beach Deal">
+                <div class="deal-info">
+                    <h3>Beach Getaway</h3>
+                    <p>Save 20% on beach vacations.</p>
+                </div>
+            </div>
+            <div class="deal-card">
+                <img src="https://media.istockphoto.com/id/1672317574/photo/ama-dablam-mountain-peak.webp?b=1&s=170667a&w=0&k=20&c=Ea8yDEHpUemrRuMZUKGPDBE11YTWVksIupMN8FkEBf8=" alt="Mountain Deal">
+                <div class="deal-info">
+                    <h3>Mountain Adventure</h3>
+                    <p>Book now and get a free hiking tour.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Explorer. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
